@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and Data
+*.log
+trade_history.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Configuration (Optional: keep if it's just a template, but usually ignore if it has account IDs)
+# config.json

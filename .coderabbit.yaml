@@ -1,0 +1,19 @@
+# CodeRabbit Configuration
+# For more information, visit https://docs.coderabbit.ai/getting-started/configure-coderabbit
+
+reviews:
+  profile: "chill" # Options: chill, assertive
+  request_review_command: "rabbit review"
+  label_command: "rabbit label"
+  auto_review:
+    enabled: true
+    drafts: false
+  tools:
+    shellcheck:
+      enabled: false
+    linters:
+      enabled: true
+
+# Enable chat for Q&A on PRs
+chat:
+  enabled: true
