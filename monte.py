@@ -406,7 +406,6 @@ class TradeExecutor:
         account = mt5.account_info()
         if not account:
             return False
-
         if not self.risk_manager.check_daily_limits(account.equity):
             return False
         if not self.risk_manager.can_trade():
